@@ -13,18 +13,6 @@
     "babel-plugin",
     "import"
   ],
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "testFileExtensions": [
-      "es6",
-      "js"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "es6"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcamilleri/babel-plugin-trim-import-extension.git"
