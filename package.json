@@ -1,0 +1,49 @@
+{
+  "name": "babel-plugin-trim-import-extension",
+  "version": "0.0.1",
+  "description": "Remove .js and .jsx extensions from `import` statements",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "import"
+  ],
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcamilleri/babel-plugin-trim-import-extension.git"
+  },
+  "author": "Dorian CAMILLERI <dorian@dcamilleri.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-jest": "^15.0.0",
+    "babel-preset-es2015": "^6.14.0",
+    "jest": "^15.0.0",
+    "standard": "^8.0.0"
+  },
+  "standard": {
+    "globals": [
+      "jest",
+      "describe",
+      "it",
+      "expect"
+    ]
+  }
+}
