@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-trim-import-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remove .js and .jsx extensions from `import` statements",
   "main": "lib/index.js",
   "scripts": {
