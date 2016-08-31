@@ -1,6 +1,6 @@
 {
-  "name": "babel-plugin-trim-import-extension",
-  "version": "0.0.2",
+  "name": "babel-plugin-remove-import-js-extension",
+  "version": "0.0.3",
   "description": "Remove .js and .jsx extensions from `import` statements",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dcamilleri/babel-plugin-trim-import-extension.git"
+    "url": "git+https://github.com/dcamilleri/babel-plugin-remove-import-js-extension.git"
   },
   "author": "Dorian CAMILLERI <dorian@dcamilleri.com>",
   "license": "MIT",
