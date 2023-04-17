@@ -10,6 +10,11 @@ module.exports = function () {
           return
         }
 
+        if (!source.value.startsWith('.')) {
+          // Don't remove extension from library imports
+          return
+        }
+
         source.value = source.value.replace(regExp, '')
       }
     }
